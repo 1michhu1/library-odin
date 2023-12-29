@@ -1,5 +1,17 @@
+body {
+    display:flex;
+    width:auto;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
 .books {
     color:black;
+    display:grid;
+    margin:10%;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
 }
 
 .book {
@@ -8,4 +20,5 @@
 
 #new-book {
     color:black;
+    width:100px;
 }
